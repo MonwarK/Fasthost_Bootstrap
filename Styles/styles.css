@@ -1,0 +1,130 @@
+/* background images */
+
+.image{
+    background-image: url("/Images/background-server-left.svg");
+    background-size: cover;
+}
+
+/* background colours */
+
+body{
+    background-color: #fefefe;
+}
+
+.primary-colour{
+    background-color: #031A4A;
+}
+
+.secondary-colour{
+    background-color: #0099FF;
+}
+
+.tertiary-colour{
+    background-color: #52C7DC;
+}
+
+.white-background{
+    background-color: white;
+}
+
+/* text colours */
+
+.white-text{
+    color: white;
+}
+
+.red-text{
+    color: #C10000;
+}
+
+/* container padding */
+
+.sm-padding{
+    padding: 1rem 3rem;
+}
+
+.md-padding{
+    padding: 5rem 3rem;
+}
+
+.lg-padding{
+    padding: 8rem 3rem;
+}
+
+.sm-padding-ver{
+    padding: 2rem 0;
+}
+
+/* container margin */
+
+.sm-margin{
+    margin: 0.5rem;
+}
+
+.md-margin{
+    margin: 1.5rem;
+}
+
+.lg-margin{
+    margin: 3.5rem;
+}
+
+/* container settings */
+
+.container-fluid{
+    width: 80%;
+}
+
+.shadow{
+    border: none;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
+}
+
+/* image sizing */
+
+.sm-image{
+    width: 8rem;
+}
+
+.md-image{
+    width: 12rem;
+}
+
+.lg-image{
+    width: 20rem;
+}
+
+/* text-alignments */
+
+.left-align{
+    text-align: left;
+}
+
+.center-align{
+    text-align: center;
+}
+
+/* text sizes */
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@media (max-width:800px){
+    .container-fluid{
+        width: 95%;
+    }
+}
